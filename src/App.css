@@ -49,7 +49,7 @@ label {
 
 input,
 textarea {
-  padding: 0.6rem;
+  padding: 10px;
   border: none;
   border-radius: 3px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -63,14 +63,14 @@ textarea {
 .actions {
   display: flex;
   justify-content: flex-end;
-  gap: 1rem;
+  gap: 10px ;
 }
 
 .actions button {
   
-  font-size: 0.9rem;
-  padding: 0.5rem 1rem;
-  gap: 0.5rem;
+  font-size: 15px;
+  padding: 10px 5px;
+  gap: 2px ;
   display: flex;
   align-items: center;
   border: 2px solid transparent;
@@ -92,6 +92,7 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 5px;
     
   }
   
