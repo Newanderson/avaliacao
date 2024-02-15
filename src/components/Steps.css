@@ -4,9 +4,11 @@
     justify-content: center;
     align-items: center;
     max-width: 400px;
-    margin: 0 auto;
+    min-width: 100px;
+     margin: 0 auto;
     position: relative;
     margin-bottom: 2rem;
+
   }
   
   .steps::after {
@@ -37,3 +39,30 @@
   .active > svg {
     fill: #7076f4;
   }
+
+  @media screen and (max-width:600px) {
+    
+    
+      .steps div ,svg {
+      display:flexbox;
+      width: 50px;
+      
+      
+    }
+
+    .steps p {
+      display: none;
+    }
+   
+    .steps::after {
+      content: "";
+      width: 140px;
+      border-bottom: 1px solid #ccc;
+      position: absolute;
+      top: 20px;
+    }
+
+    
+    
+    
+    }

@@ -59,7 +59,8 @@ const { currentComponent, currentSteps, changeStep, isLastStep } = useForm(formC
         </p>
       </div>
       <div className="form-container">
-       <Steps currentSteps={currentSteps}/>
+       <Steps currentSteps={currentSteps} />
+       
         <form onSubmit={(e) => changeStep(currentSteps + 1, e)} >
           <div className="inputs-container">
            {currentComponent}
