@@ -47,7 +47,7 @@ const ReviewForm = ( {data, updateFieldHandler}:ReviewForm) =>{
                 />
                 
                 <BsFillEmojiNeutralFill/>
-                <p>Poderia ser melhor</p>
+                <p>Poderia melhorar</p>
                 
             </label>
             <label className="radio-container">
